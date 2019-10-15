@@ -4,12 +4,10 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
-	"log"
-	"net/http"
-
 	"github.com/gorilla/mux"
-)
+	"io/ioutil"
+	"net/http"
+	)
 
 type Article struct {
 	Id      string `json:"Id"`
